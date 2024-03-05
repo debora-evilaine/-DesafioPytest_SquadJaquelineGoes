@@ -4,9 +4,8 @@ def admin_command(command, sudo=True):
     `command` to be a list.
     """
     if sudo:
-        ["sudo"] + command
+        return ["sudo"] + command
     return command
-
 
 class TestAdminCommand:
 
