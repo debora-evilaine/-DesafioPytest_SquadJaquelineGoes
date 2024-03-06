@@ -1,2 +1,4 @@
 .venv_tests
-debora_introducao_a_testes/tests/__pycache__/
+**/__pycache__/
+.pytest_cache
+venv
