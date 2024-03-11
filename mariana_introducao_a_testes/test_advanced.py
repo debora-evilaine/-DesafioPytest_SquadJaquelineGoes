@@ -35,3 +35,4 @@ class TestFile:
         with open(path) as _f:
             contents = _f.read()
         assert contents == "1"
+
